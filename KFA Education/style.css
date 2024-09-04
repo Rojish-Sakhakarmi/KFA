@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+* a{
+    text-decoration: none;
+    color:  black;
+}
+
+.foot2 a{
+    color: #ffffff;
+}
+.Nav {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6F0054;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-top: 0px;
+}
+
+.Navl {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.na,
+.naa {
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+    color: aliceblue;
+}
+
+.Navr {
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+}
+
+.social,
+.fol {
+    color: aliceblue;
+    display: block;
+}
+
+.Nav2 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navtext {
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbt button {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6F0054;
+    border-radius: 8px;
+    font-size: 18px;
+    color: aliceblue;
+    border: none;
+}
+
+.body img {
+    width: 100%
+}
+
+.body2 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.body2 h1 {
+    color: #6F0054;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    padding: 0%;
+    margin-bottom: 0%;
+  
+} 
+
+.body2 h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+    
+}
+
+.body2 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.body2 button {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6F0054;
+    border-radius: 8px;
+    font-size: 18px;
+    color: aliceblue;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.messa p {
+    color: #6F0054;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+   margin-bottom: 0%;
+    
+}
+.Stud p {
+    color: #6F0054;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.cont {
+    display: flex;
+    gap: 25px;
+}
+
+.restap p {
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: left;
+    color: black;
+    
+    
+    text-align: left;
+    padding-right: 80px;
+
+}
+.rojishp p{
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: left;
+    color: black;
+    
+   
+    text-align: left;
+    
+
+}
+
+.restap h2 {
+    color: #6F0054;
+    
+    font-size: 32px;
+}
+.rojishp h2 {
+        color: #6F0054;
+        font-size: 32px;
+    }
+
+    .resta img {
+        height: 540px;
+        width: 515px;
+        padding-left: 80px;
+        padding-top: 38px;
+       
+    }
+
+    .restap button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #6F0054;
+        border-radius: 8px;
+        font-size: 18px;
+        color: aliceblue;
+        border: none;
+        
+        
+    }
+    .rojishp button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #6F0054;
+        border-radius: 8px;
+        font-size: 18px;
+        color: aliceblue;
+        border: none;
+        
+        
+    }
+
+    .messa {
+        background-color: #D9D9D9;
+        padding-bottom: 30px;
+
+    }
+    .Stud {
+        background-color: #D9D9D9;
+        padding-bottom: 30px;
+
+    }
+
+    .news p {
+        font-size: 52px;
+        color: #6F0054;
+        font-weight: 700;
+        text-align: center;
+    }
+    .vourse p {
+        font-size: 52px;
+        color: #6F0054;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .news {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .n p {
+        font-size: 20px;
+        text-align: left;
+        color: black;
+    }
+
+    .n {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .news button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #6F0054;
+        border-radius: 8px;
+        font-size: 18px;
+        color: aliceblue;
+        border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .rojis img {
+        width: 450px;
+        height: 470px;
+        padding-top: 30px;
+    }
+    .Stud{
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+    .co h2{
+        font-size: 44px;
+        color: #6F0054;
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    .co h3{
+        font-weight: 600;
+        font-size: 30px;
+        color: black;
+    }
+    .co p{
+        font-size: 18px;
+        color: black;
+        text-align: left;
+        font-weight: 400;
+
+    }
+    .courses{
+        display: flex;
+        justify-content: space-between;
+    }
+ 
+
+    .cour{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .cour button{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #6F0054;
+        border-radius: 8px;
+        font-size: 18px;
+        color: aliceblue;
+        border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fsocial {
+        color: #D9D9D9;
+        gap: 400px;
+
+    }
+    .foot{
+        background-color: #6F0054;
+        padding-left: 55px;
+        padding-right: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .foot1 p{
+        color: #D9D9D9;
+    }
+    .fsocial span{
+        font-weight: 500;
+
+    }
+    .foot1 img{
+        padding-top: 50px;
+    }
+    .foot2 h4{
+        color: aliceblue;
+       
+    }
+    .ph, .lo, .em{
+        align-items: center;
+        display: flex;
+        color: #D9D9D9;
+        gap: 10px;
+        text-align: left;
+    }
+    .foot{
+    display: flex;
+    gap: 50px;
+    justify-content:space-around ;
+    }
+    .foot2 ul{
+        color: white
+
+    }
+    .foot2{
+        padding-top: 50px;
+    }
+
+    .foot2 ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+
+    .f{
+        background-color: #ffffff;
+        padding-left: 80px;
+        font-size: 14px;
+    }
+
+    /* //media screen  */
+
+    /* Base Styles (already defined) */
+
+/* Responsive Adjustments */
+
+/* Small Devices (Tablets, 768px and below) */
+@media (max-width: 768px) {
+    .Nav, .Nav2, .body2, .news, .foot, .cour, .resta {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .Navl, .Navr, .courses, .foot {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Navr {
+        left: 0;
+        text-align: center;
+    }
+
+    .navtext, .cont {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .body2 h1, .body2 h2, .messa p, .Stud p, .news p, .vourse p {
+        font-size: 36px;
+    }
+
+    .rojis img, .resta img {
+        width: 100%;
+        height: auto;
+    }
+
+    .news button, .body2 button, .restap button, .rojishp button, .cour button {
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 18px;
+    }
+
+    .n {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .foot1 img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+/* Extra Small Devices (Mobile Phones, 480px and below) */
+@media (max-width: 480px) {
+    .Nav, .Nav2, .body2, .news, .foot, .cour, .resta {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Navr {
+        gap: 5px;
+    }
+
+    .navtext, .cont {
+        gap: 10px;
+    }
+
+    .body2 h1, .body2 h2, .messa p, .Stud p, .news p, .vourse p {
+        font-size: 28px;
+    }
+
+    .restap h2, .rojishp h2, .co h2 {
+        font-size: 24px;
+    }
+
+    .co h3, .restap p, .rojishp p, .co p, .n p {
+        font-size: 16px;
+    }
+
+    .news button, .body2 button, .restap button, .rojishp button, .cour button {
+        padding: 10px 14px;
+        font-size: 16px;
+    }
+
+    .fsocial {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .foot {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
